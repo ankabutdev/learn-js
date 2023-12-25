@@ -75,23 +75,23 @@ function myFunc(){
 //     console.log(x);
 // }
 
-const fruits = new Map([
-  ["apples", 500],
-  ["bananas", 300],
-  ["oranges", 200]
-]);
+// const fruits = new Map([
+//   ["apples", 500],
+//   ["bananas", 300],
+//   ["oranges", 200]
+// ]);
 // for (fruit of fruits){
 //   console.log(fruit);
 // }
-console.log();
-let weekends = new Map();
-weekends.set(1, "Sunday");
-weekends.set(2, "Monday");
-weekends.set(3, "Tuesday");
-weekends.set(4, "Wednesday");
-weekends.set(5, "Thursday");
-weekends.set(6, "Friday");
-weekends.set(7, "Satuday");
+// console.log();
+// let weekends = new Map();
+// weekends.set(1, "Sunday");
+// weekends.set(2, "Monday");
+// weekends.set(3, "Tuesday");
+// weekends.set(4, "Wednesday");
+// weekends.set(5, "Thursday");
+// weekends.set(6, "Friday");
+// weekends.set(7, "Satuday");
 
 // for(arr of weekends){
 //   console.log(arr);
@@ -131,15 +131,15 @@ weekends.set(7, "Satuday");
 
 // console.log(text);
 
-function isArray(array){
-  return array.constructor === Array;
-};
+// function isArray(array){
+//   return array.constructor === Array;
+// };
 
-function isMap(map){
-  return map.constructor === Map;
-}
+// function isMap(map){
+//   return map.constructor === Map;
+// }
 
-var array = [1,2,3,4,5,65,4];
+// var array = [1,2,3,4,5,65,4];
 
 
 // console.log(isArray(array));
@@ -167,7 +167,7 @@ var array = [1,2,3,4,5,65,4];
 
 
 
-let str = "Lorem, ipsum dolor aaa sit amet consectetur adipisicing elit. Vero ratione repellendus molestiae optio quam temporibus amet a tempora et soluta sed, ullam illo totam cupiditate deserunt voluptas quaerat in iusto.";
+// let str = "Lorem, ipsum dolor aaa sit amet consectetur adipisicing elit. Vero ratione repellendus molestiae optio quam temporibus amet a tempora et soluta sed, ullam illo totam cupiditate deserunt voluptas quaerat in iusto.";
 
 // let c = str.search("aaa");
 // console.log(c);

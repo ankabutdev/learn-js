@@ -6,3 +6,10 @@ button{
     cursor: pointer;
     background-color: #2fb634;
 }
+
+buttonkill {
+    padding: 10px;
+    font-size: medium;
+    border-radius: 5px;
+    background-color: blue;
+}
