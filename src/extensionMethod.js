@@ -23,3 +23,6 @@ console.log("2 and 8 (asc):", myArray);
 // Sort 3 to 9
 myArray.sortBetween(3, 9, false);
 console.log("2 and 8 (desc):", myArray);
+
+myArray.sortBetween();
+console.log(myArray);

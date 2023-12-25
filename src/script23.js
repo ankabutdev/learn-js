@@ -94,9 +94,20 @@ class Car
         this.name = name;
         this.year = year;
     }
+   
 
-    age() {
-        const date = new Date();
-        return date.getFullYear() - this.year;
+    async age() {
+        let date = new Date(2015);
+        return await date.getFullYear() - this.year;
     }
+    
 }
+
+// const data = new Date();
+
+// console.log(data.toUTCString());
+// console.log(data.toLocaleString());
+
+
+const m = new Car("Json", 2004);
+console.log(m.age());
