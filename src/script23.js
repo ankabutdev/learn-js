@@ -87,21 +87,7 @@ const member = {
 
 // document.getElementById("btn").addEventListener("click", hello);
 
-class Car
-{
-    constructor(name, year)
-    {
-        this.name = name;
-        this.year = year;
-    }
-   
 
-    async age() {
-        let date = new Date(2015);
-        return await date.getFullYear() - this.year;
-    }
-    
-}
 
 // const data = new Date();
 
@@ -109,5 +95,45 @@ class Car
 // console.log(data.toLocaleString());
 
 
-const m = new Car("Json", 2004);
-console.log(m.age());
+// const m = new Car("Json", 2004);
+// console.log(m.age());
+
+
+// const t = ["j", 1];
+
+// console.log(typeof(m));
+// console.log(typeof(t));
+
+// for(x of t){
+//     console.log(x);
+// }
+
+
+class Car
+{
+    constructor(name, year)
+    {
+        this.name = name;
+        this.year = year;
+    }
+    static age() {
+        let date = new Date();
+        return date.getFullYear() - this.year;
+    }
+}
+
+let car1 = new Car("BMW", 2023);
+let car2 = new Car("BMW", 2022);
+
+// console.log(car1);
+// console.log(car2);
+
+const myCar = new Car("Ford", 2014);
+document.getElementById("demo").innerHTML =
+"My car is " + myCar.age() + " years old.";
+
+
+
+
+
+

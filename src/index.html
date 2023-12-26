@@ -11,7 +11,11 @@
 <body>
     <h2 class="javascriptClass" id="javascript"></h2>
 
-    <p class="pclass" id="demo"></p>
+    <p class="pclass" id="demo">Demo</p>
+    <p class="pclass" id="bbb">Demo</p>
+    <p class="pclass" id="bb2">Demo</p>
+    <p class="pclass" id="bb3">Demo</p>
+    <p class="pclass" id="bb4">Demo</p>
 
     <button class="button" type="button" onclick="myFunc()">Try It</button>
 
@@ -20,6 +24,28 @@
     <button class="btn" id="btn" type="button">Click Me! Btn</button>
 
     <script src="script.js"></script>
+    <script src="extensionMethod.js"></script>
+    <script src="script23.js"></script>
+    <script src="message.js"></script>
+    <script src="person.js"></script>
+    <script src="app.js"></script>
+    <script src="utility.js"></script>
+    <script src="utils.js"></script>
+    <script src="./math.js"></script>
+
+    <script type="module">
+        import { add, subtract } from "./math.js";
+        document.getElementById("demo").innerHTML = add(1, 2);
+        document.getElementById("bbb").innerHTML = subtract(5, 4);
+    </script>
+
+    <script type="module">
+        import * as all from './utils.js';
+        document.getElementById("bb2").innerHTML = all.PI;  
+        document.getElementById("bb3").innerHTML = all.square(5);
+        document.getElementById("bb4").innerHTML = all.double(7);
+    </script>
+
 </body>
 
 </html>
